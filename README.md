@@ -1,3 +1,5 @@
+This fork temp will be used to add as necessary to add or Sign In Apple. Credits by @sam0829
+
 # firebase_auth_ui
 
 Flutter plugin of Firebase UI which allows to add login/sign-up quickly.
