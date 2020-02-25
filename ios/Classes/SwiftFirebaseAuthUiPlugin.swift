@@ -118,6 +118,8 @@ public class SwiftFirebaseAuthUiPlugin: NSObject, FlutterPlugin, FUIAuthDelegate
                         authProviders.append(FUIFacebookAuth())
                     } else if (provider == "twitter") {
                         authProviders.append(getTwitterAuthProvider())
+                    } else if (provider == "phone") {
+                        authProviders.append(FUIPhoneAuth(authUI: authUI!))
                     }
                 }
             }
@@ -142,5 +144,14 @@ public class SwiftFirebaseAuthUiPlugin: NSObject, FlutterPlugin, FUIAuthDelegate
                                     scopes: ["user.read"],
                                     customParameters: ["prompt" : "consent"],
                                     loginHintKey: nil)
-         }
+        }
+
+        public func authPickerViewController(forAuthUI authUI: FUIAuth) -> FUIAuthPickerViewController {
+                let path = Bundle.main.path(forResource: "firebase_auth_ui", ofType: "bundle")
+                let bundle = Bundle(path: path!)
+
+                return CustomFUIAuthPickerViewController(nibName: "CustomFUIAuthPickerViewController",
+                                                          bundle: bundle,
+                                                          authUI: authUI)
+        }
 }
