@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0254cf3-40a9-429f-883f-c19668ac34ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftFirebaseAuthUiPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftFirebaseAuthUiPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/firebase_auth_ui/FirebaseAuthUiPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/firebase_auth_ui/FirebaseAuthUiPlugin.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583178498643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login da Apple somente com IOS 13">
+      <created>1583181965324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583181965324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -107,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Substitui Twitter por Apple" />
-    <option name="LAST_COMMIT_MESSAGE" value="Substitui Twitter por Apple" />
+    <MESSAGE value="Login da Apple somente com IOS 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login da Apple somente com IOS 13" />
   </component>
 </project>
