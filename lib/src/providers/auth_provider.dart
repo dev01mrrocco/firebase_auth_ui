@@ -20,8 +20,8 @@ abstract class AuthProvider {
     return FacebookProvider();
   }
 
-  factory AuthProvider.twitter() {
-    return TwitterProvider();
+  factory AuthProvider.apple() {
+    return AppleProvider();
   }
 
   factory AuthProvider.phone() {

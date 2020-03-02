@@ -116,7 +116,7 @@ class FirebaseAuthUiPlugin(private val activity: Activity) : MethodCallHandler, 
                         .build())
                 "facebook" -> providers.add(AuthUI.IdpConfig.FacebookBuilder()
                         .build())
-                "twitter" -> providers.add(AuthUI.IdpConfig.TwitterBuilder()
+                "apple" -> providers.add(AuthUI.IdpConfig.AppleBuilder()
                         .build())
                 "phone" -> providers.add(AuthUI.IdpConfig.PhoneBuilder()
                         .build())

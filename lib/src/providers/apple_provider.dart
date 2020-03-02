@@ -1,7 +1,7 @@
 import '../../providers.dart';
 
-class TwitterProvider extends AuthProvider {
-  TwitterProvider() : super(providerId: "twitter");
+class AppleProvider extends AuthProvider {
+  AppleProvider() : super(providerId: "apple");
 
   @override
   Map<String, dynamic> getMap() {
